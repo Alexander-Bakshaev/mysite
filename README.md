@@ -1,0 +1,1 @@
+## Данный учебный проект создан по курсу <a href="https://stepik.org/course/174634/syllabus">"Django 5 для начинающих"</a> 
