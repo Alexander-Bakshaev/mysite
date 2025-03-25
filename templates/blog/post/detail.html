@@ -5,13 +5,22 @@
 {% block content %}
     <h1>{{ post.title }}</h1>
     <p class="date">
-        Published {{ post.publish }} by {{ post.author }}
+        Опубликован {{ post.publish }} автор {{ post.author }}
     </p>
     {{ post.body|linebreaks }}
 
     <a href="{% url 'blog:post_share' post.id %}">Поделиться</a>
     |
     <a href="{% url 'blog:post_list' %}">Вернуться к списку постов</a>
+
+    <h2>Схожие посты</h2>
+    {% for post in similar_posts %}
+        <p>
+            <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+        </p>
+    {% empty %}
+        <p>Схожих постов нет.</p>
+    {% endfor %}
 
     {% with comments.count as total_comments %}
         <h2>
@@ -21,13 +30,13 @@
     {% for comment in comments %}
         <div class="comment">
             <p class="info">
-                Comment {{ forloop.counter }} by {{ comment.name }}
+                Комментарий {{ forloop.counter }} автор {{ comment.name }}
                 {{ comment.created }}
             </p>
             {{ comment.body|linebreaks }}
         </div>
     {% empty %}
-        <p>There are no comments.</p>
+        <p>Комментариев нет.</p>
     {% endfor %}
     {% include "blog/post/includes/comment_form.html" %}
 {% endblock %}
