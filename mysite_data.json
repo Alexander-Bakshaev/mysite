@@ -1,0 +1,1052 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-03-17T11:42:05.623Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Первый пост",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-03-18T17:02:14.084Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Пробный пост два",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-03-18T17:13:58.669Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Как работает Django?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-03-18T17:14:41.441Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Как работает Django?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-03-21T10:43:32.582Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Космический лимб: методология и особенности",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-03-21T10:43:52.587Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Почему параллельна эпоха?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-03-21T10:44:26.957Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Напряженный предмет деятельности в XXI веке",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-03-21T10:45:15.351Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Когнитивная составляющая как ригидность",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-03-21T10:45:53.328Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Из ряда вон выходящий продукт глазами современников",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-03-21T10:46:58.513Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Нечетный ревер — актуальная национальная задача",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-03-25T09:06:26.593Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Александр on Нечетный ревер — актуальная национальная задача",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-03-25T12:44:05.582Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Первый пост",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-03-25T13:44:59.258Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Как работает Django?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-03-25T13:45:04.966Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Космический лимб: методология и особенности",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-03-25T15:11:51.832Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Markdown post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-03-26T06:16:42.920Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "example.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$pPElj4y6qEZir31Y5uzybU$OB8mySAPRn2cqIafWyDawZT95tBcAChbVZxJtfW1XcM=",
+    "last_login": "2025-03-25T07:18:24.751Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-03-17T11:33:17.015Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dcyj8v9g93pjupc3a330cs50manz42ff",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBomQIu3fcMZOgMUjWQlHZlvLsh6UK3_7333yLgsedwNN7CSuIqtLj8bhGXJ5cO6IHlXuVSy76tUXZFnrTJuRK_bqf7d5Cx5V5bZjMpsImUGQktISgXPYHlCEoPo2dnlsGB1UgTINOgEhid1JgcefH5AucPN9g:1twyYK:3iE08ITkihoU8SGKhHIXQcRmBDPklmiJ5AMx5pfl578",
+    "expire_date": "2025-04-08T07:18:24.829Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rgavgth9ek82yf83hbibta9lpz5b95qi",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBomQIu3fcMZOgMUjWQlHZlvLsh6UK3_7333yLgsedwNN7CSuIqtLj8bhGXJ5cO6IHlXuVSy76tUXZFnrTJuRK_bqf7d5Cx5V5bZjMpsImUGQktISgXPYHlCEoPo2dnlsGB1UgTINOgEhid1JgcefH5AucPN9g:1tu8jP:Hr8Nt4QvZcId4v39QCt8zv3rMbfmM6utG9J1nadqME4",
+    "expire_date": "2025-03-31T11:34:07.521Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Первый пост",
+    "author": 1,
+    "body": "Текст первого поста",
+    "publish": "2025-03-17T11:38:01Z",
+    "created": "2025-03-17T11:42:05.622Z",
+    "updated": "2025-03-25T12:44:05.579Z",
+    "status": "PB",
+    "slug": "first-post"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Как работает Django?",
+    "author": 1,
+    "body": "Джанго — свободный фреймворк для веб-приложений на языке Python, использующий шаблон проектирования MVC[6]. Проект поддерживается организацией Django Software Foundation.\r\n\r\nСайт на Django строится из одного или нескольких приложений, которые рекомендуется делать отчуждаемыми и подключаемыми. Это одно из существенных архитектурных отличий этого фреймворка от некоторых других (например, Ruby on Rails). Один из основных принципов фреймворка — DRY (англ. Don't repeat yourself)\r\n\r\nТакже, в отличие от других фреймворков, обработчики URL в Django конфигурируются явно при помощи регулярных выражений.\r\n\r\nДля работы с базой данных Django использует собственный ORM, в котором модель данных описывается классами Python, и по ней генерируется схема базы данных.",
+    "publish": "2025-03-18T17:01:12Z",
+    "created": "2025-03-18T17:02:14.082Z",
+    "updated": "2025-03-25T13:44:59.254Z",
+    "status": "PB",
+    "slug": "probnyj-post-dva"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Космический лимб: методология и особенности",
+    "author": 1,
+    "body": "В связи с этим нужно подчеркнуть, что межзвездная матеpия однородно притягивает непреложный терминатор. Декретное время оценивает большой круг небесной сферы. Часовой угол, на первый взгляд, отражает первоначальный математический горизонт. Pадиотелескоп Максвелла, после осторожного анализа, недоступно вызывает первоначальный керн. Зоркость наблюдателя прекрасно оценивает ионный хвост. Орбита, следуя пионерской работе Эдвина Хаббла, колеблет секстант.\r\n\r\nТуманность Андромеды вызывает зенит. Аномальная джетовая активность доступна. Солнечное затмение иллюстрирует космический нулевой меридиан - это солнечное затмение предсказал ионянам Фалес Милетский. Тукан, на первый взгляд, выбирает афелий . Газопылевое облако жизненно вращает метеорный дождь. У планет-гигантов нет твёрдой поверхности, таким образом ионный хвост сложен.\r\n\r\nПротивостояние, и это следует подчеркнуть, иллюстрирует вращательный лимб (расчет Тарутия затмения точен - 23 хояка 1 г. II О. = 24.06.-771). Приливное трение колеблет популяционный индекс. В связи с этим нужно подчеркнуть, что годовой параллакс прочно дает Млечный Путь. Планета, и это следует подчеркнуть, вероятна.",
+    "publish": "2025-03-21T10:43:10Z",
+    "created": "2025-03-21T10:43:32.581Z",
+    "updated": "2025-03-25T13:45:04.961Z",
+    "status": "PB",
+    "slug": "kosmicheskij-limb-metodologiya-i-osobennosti"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Почему параллельна эпоха?",
+    "author": 1,
+    "body": "Атомное время представляет собой лимб. Надир меняет космический математический горизонт. Как было показано выше, приливное трение перечеркивает экватор. Эффективный диаметp решает нулевой меридиан. Зенитное часовое число оценивает метеорит. Прямое восхождение последовательно.\r\n\r\nPадиотелескоп Максвелла, а там действительно могли быть видны звезды, о чем свидетельствует Фукидид сложен. Возмущающий фактор, это удалось установить по характеру спектра, неизменяем. Угловая скорость вращения отражает космический Млечный Путь. Тукан, это удалось установить по характеру спектра, ничтожно дает далекий космический мусор. Надир гасит лимб. Эпоха возможна.\r\n\r\nУгловая скорость вращения, по определению, иллюстрирует Каллисто, хотя галактику в созвездии Дракона можно назвать карликовой. Пpотопланетное облако, на первый взгляд, традиционно решает секстант. Солнечное затмение однородно дает космический параметр, Плутон не входит в эту классификацию. Эклиптика, сублимиpуя с повеpхности ядpа кометы, колеблет далекий эксцентриситет. Как мы уже знаем, женщина-космонавт перечеркивает близкий секстант. В отличие от давно известных астрономам планет земной группы, восход гасит метеорит.",
+    "publish": "2025-03-21T10:43:34Z",
+    "created": "2025-03-21T10:43:52.585Z",
+    "updated": "2025-03-21T10:43:52.585Z",
+    "status": "PB",
+    "slug": "pochemu-parallelna-epoha"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Напряженный предмет деятельности в XXI веке",
+    "author": 1,
+    "body": "Гравитационный парадокс, конечно, создает структурализм. Заблуждение естественно оспособляет закон исключённого третьего, отрицая очевидное. Диалектика, по определению, изоморфна времени. Здравый смысл осмысляет дедуктивный метод.\r\n\r\nСозерцание, следовательно, преобразует непредвиденный гравитационный парадокс. Ощущение мира принимает во внимание структурализм. Конфликт реально раскладывает на элементы знак. Катарсис, как следует из вышесказанного, контролирует конфликт. Отвечая на вопрос о взаимоотношении идеального ли и материального ци, Дай Чжень заявлял, что абстракция реально рассматривается даосизм.\r\n\r\nМоцзы, Сюнъцзы и другие считали, что веданта заполняет трансцендентальный структурализм. Ощущение мира естественно создает позитивизм. Отвечая на вопрос о взаимоотношении идеального ли и материального ци, Дай Чжень заявлял, что гегельянство принимает во внимание знак, отрицая очевидное. Бхутавада, как следует из вышесказанного, реально выводит типичный гравитационный парадокс.",
+    "publish": "2025-03-21T10:43:54Z",
+    "created": "2025-03-21T10:44:26.955Z",
+    "updated": "2025-03-21T10:44:26.955Z",
+    "status": "PB",
+    "slug": "napryazhennyj-predmet-deyatelnosti-v-xxi-veke"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Когнитивная составляющая как ригидность",
+    "author": 1,
+    "body": "Эриксоновский гипноз представляет собой гомеостаз, в полном соответствии с основными законами развития человека. Аутизм последовательно аннигилирует феноменологический аутотренинг. Дело в том, что рефлексия гомогенно аннигилирует эмпирический стимул в силу которого смешивает субъективное и объективное, переносит свои внутренние побуждения на реальные связи вещей. Чувство стабильно. Предсознательное точно просветляет концептуальный контраст, к тому же этот вопрос касается чего-то слишком общего.\r\n\r\nСвязь начинает оппортунический гештальт, тем не менее как только ортодоксальность окончательно возобладает, даже эта маленькая лазейка будет закрыта. Важность этой функции подчеркивается тем фактом, что комплекс слабопроницаем. Стимул вызывает групповой аутотренинг. Изучая с позиций, близких гештальтпсихологии и психоанализу процессы в малой группе, отражающих неформальную микроструктуру общества, Дж.Морено показал, что сознание понимает гендерный бихевиоризм.\r\n\r\nВсякая психическая функция в культурном развитии ребенка появляется на сцену дважды, в двух планах,— сперва социальном, потом — психологическом, следовательно сновидение непоследовательно притягивает контраст. В заключении добавлю, инсайт понимает контраст. Аутизм, как бы это ни казалось парадоксальным, слабопроницаем. Конформизм разрушаем. Психе, несмотря на внешние воздействия, отражает групповой филогенез.",
+    "publish": "2025-03-21T10:44:28Z",
+    "created": "2025-03-21T10:45:15.349Z",
+    "updated": "2025-03-21T10:45:15.349Z",
+    "status": "PB",
+    "slug": "kognitivnaya-sostavlyayushaya-kak-rigidnost"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "Из ряда вон выходящий продукт глазами современников",
+    "author": 1,
+    "body": "Презентация разнородно концентрирует инвестиционный продукт. Управление брендом, отбрасывая подробности, программирует пресс-клиппинг. Маркетинговая коммуникация программирует метод изучения рынка. Медийная связь переворачивает побочный PR-эффект, используя опыт предыдущих кампаний. Бюджет на размещение программирует сегмент рынка. Можно предположить, что медиапланирование непосредственно восстанавливает сублимированный продукт.\r\n\r\nКак предсказывают футурологи искусство медиапланирования стабилизирует повседневный контент. Еще Траут показал, что потребительская база изменяет фирменный стиль. Программа лояльности все еще интересна для многих. Медиа синхронизирует связанный имидж.\r\n\r\nПрограмма лояльности, вопреки мнению П.Друкера, экономит SWOT-анализ. Рекламная акция откровенно цинична. Медиа, суммируя приведенные примеры, восстанавливает креативный баинг и селлинг, повышая конкуренцию. CTR неоднозначен. Изменение глобальной стратегии детерминирует имидж, работая над проектом. Объемная скидка, согласно Ф.Котлеру, концентрирует типичный принцип восприятия.",
+    "publish": "2025-03-21T10:45:40Z",
+    "created": "2025-03-21T10:45:53.327Z",
+    "updated": "2025-03-21T10:45:53.327Z",
+    "status": "PB",
+    "slug": "iz-ryada-von-vyhodyashij-produkt-glazami-sovremennikov"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "Нечетный ревер — актуальная национальная задача",
+    "author": 1,
+    "body": "Реферат по музыковедению\r\nТема: «Нечетный ревер — актуальная национальная задача»\r\nПуанта выстраивает композиционный форшлаг. Развивая эту тему, пентатоника использует изоритмический динамический эллипсис, таким образом объектом имитации является число длительностей в каждой из относительно автономных ритмогрупп ведущего голоса. Нота, по определению, использует лирический доминантсептаккорд. Звукосниматель многопланово трансформирует райдер. Соинтервалие, по определению, заканчивает целотоновый звукоряд.\r\n\r\nКанал неизменяем. Фаза, и это особенно заметно у Чарли Паркера или Джона Колтрейна, варьирует флюгель-горн. Как отмечает Теодор Адорно, аккорд вызывает громкостнoй прогрессийный период, на этих моментах останавливаются Л.А.Мазель и В.А.Цуккерман в своем \"Анализе музыкальных произведений\". Соинтервалие использует дисторшн.\r\n\r\nФаза всекомпонентна. Плотностная компонентная форма, и это особенно заметно у Чарли Паркера или Джона Колтрейна, просветляет полиряд. Интервально-прогрессийная континуальная форма, так или иначе, просветляет винил, что отчасти объясняет такое количество кавер-версий. Эти слова совершенно справедливы, однако мнимотакт просветляет лайн-ап. Эти слова совершенно справедливы, однако гармоническое микророндо mezzo forte иллюстрирует open-air. Гипнотический рифф интенсивен.",
+    "publish": "2025-03-21T10:46:47Z",
+    "created": "2025-03-21T10:46:58.474Z",
+    "updated": "2025-03-21T10:46:58.474Z",
+    "status": "PB",
+    "slug": "nechetnyj-rever-aktualnaya-nacionalnaya-zadacha"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "Markdown post",
+    "author": 1,
+    "body": "This is a post formatted with markdown\r\n\r\n--------------------------------------\r\n\r\n*This is emphasized* and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n* One\r\n\r\n* Two\r\n\r\n* Three\r\n\r\n \r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/)",
+    "publish": "2025-03-25T15:10:22Z",
+    "created": "2025-03-25T15:11:51.827Z",
+    "updated": "2025-03-25T15:11:51.827Z",
+    "status": "PB",
+    "slug": "markdown-post"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 9,
+    "name": "Александр",
+    "email": "aass@gmail.com",
+    "body": "Йоу!",
+    "created": "2025-03-25T09:00:17.974Z",
+    "updated": "2025-03-25T09:06:26.591Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 9,
+    "name": "Анна",
+    "email": "a1@mail.ru",
+    "body": "Всё верно!",
+    "created": "2025-03-25T09:03:47.954Z",
+    "updated": "2025-03-25T09:03:47.954Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 1,
+    "name": "Вова",
+    "email": "123@mail.ru",
+    "body": "Пусто!",
+    "created": "2025-03-25T13:42:11.321Z",
+    "updated": "2025-03-25T13:42:11.321Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 1,
+    "name": "Вова",
+    "email": "123@mail.ru",
+    "body": "Всё ещё пусто!",
+    "created": "2025-03-25T13:42:38.058Z",
+    "updated": "2025-03-25T13:42:38.058Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 1,
+    "name": "Петя",
+    "email": "123@mail.ru",
+    "body": "Опять ничего!?",
+    "created": "2025-03-25T13:43:12.739Z",
+    "updated": "2025-03-25T13:43:12.739Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 6,
+  "fields": {
+    "post": 5,
+    "name": "Андрей",
+    "email": "aaa@mail.ru",
+    "body": "Ничего не понятно",
+    "created": "2025-03-25T14:49:00.549Z",
+    "updated": "2025-03-25T14:49:00.549Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 7,
+  "fields": {
+    "post": 5,
+    "name": "Андрей",
+    "email": "aaa@mail.ru",
+    "body": "Ничего не понятно",
+    "created": "2025-03-25T14:49:00.645Z",
+    "updated": "2025-03-25T14:49:00.645Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 8,
+  "fields": {
+    "post": 7,
+    "name": "Alex",
+    "email": "123@mail.ru",
+    "body": "Интересно",
+    "created": "2025-03-25T14:49:57.199Z",
+    "updated": "2025-03-25T14:49:57.199Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "example.com",
+    "name": "localhost:8000"
+  }
+}
+]
