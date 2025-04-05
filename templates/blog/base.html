@@ -17,6 +17,21 @@
         Это мой блог.
         Я написал {% total_posts %} постов.
     </p>
+
+    <hr>
+    {% if user.is_authenticated %}
+        Привет {{ user.username }}!
+        <form action="{% url 'logout' %}" method="post">
+            {% csrf_token %}
+            <p></p>
+            <a href="#" onclick="parentNode.submit();">Выход</a>
+        </form>
+    {% else %}
+        <p>Вы не авторизованы</p>
+        <a href="{% url 'login' %}">Войти</a>
+    {% endif %}
+    <hr>
+
     <h3>Последние посты</h3>
     {% show_latest_posts 3 %}
     <h3>Популярные посты</h3>
