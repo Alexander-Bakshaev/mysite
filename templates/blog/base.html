@@ -1,11 +1,19 @@
 {% load blog_tags %}
 {% load static %}
+
+{% if messages %}
+    {% for message in messages %}
+        {{ message.tags }} {{ message }}
+    {% endfor %}
+{% endif %}
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>{% block title %}{% endblock %}</title>
     <link href="{% static 'css/blog.css' %}" rel="stylesheet">
 </head>
+
 <body>
 <div id="content">
     {% block content %}
