@@ -5,6 +5,8 @@
     <form method="post">
         {{ form.as_p }}
         {% csrf_token %}
+        <a href="{% url 'social:begin' 'github' %}">Log In with GitHub</a>
+        <br><a href="{% url 'social:begin' 'google-oauth2' %}">Log In with Google</a>
         <p><input type="submit" value="Войти"></p>
         <p><a href="{% url 'password_reset' %}">Сбросить пароль</a></p>
     </form>
