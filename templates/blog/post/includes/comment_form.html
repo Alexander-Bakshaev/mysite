@@ -1,6 +1,21 @@
-<h2>Добавить комментарий</h2>
-<form action="{% url 'blog:post_comment' post.id %}" method="post">
+<form action="{% url "blog:post_comment" post.id %}" method="post">
     {% csrf_token %}
-    {{ form.as_p }}
+
+    {% if user.is_authenticated %}
+        <h3>Напишите комментарий, {{ user.username }}</h3>
+
+    {% else %}
+        <h3>Добавить комментарий</h3>
+        <div class="col mt-2">
+            {{ form.name }}
+        </div>
+        <div class="col mt-2">
+            {{ form.email }}
+        </div>
+    {% endif %}
+
+        <div class="col mt-2">
+            {{ form.body }}
+        </div>
     <p><input type="submit" value="Добавить"></p>
 </form>
