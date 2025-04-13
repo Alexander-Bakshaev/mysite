@@ -59,7 +59,7 @@ INSTALLED_APPS = [
     'social_django',
     'django_bootstrap5',
     'rest_framework',
-    'blog_api.BlogApiConfig',
+    'blog_api.apps.BlogApiConfig',
 ]
 
 REST_FRAMEWORK = {
